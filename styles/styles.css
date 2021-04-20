@@ -1,0 +1,119 @@
+header {
+    background-color: #87509c;
+}
+
+.logo_and_nav {
+    padding-top: 55px;
+    display: flex;
+    justify-content: space-around;
+    align-content: baseline;
+    align-items: center;
+}
+
+.logo {
+    /* width: 116.38px; */
+}
+
+.navigation {
+    width: 30%;
+}
+
+
+ul.nav {
+    
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+    ul.nav li {
+        font-size: 16px;
+        font-weight: 400;
+        /* margin-right: 11%; */
+        /* padding: 20px 11% 0 0; */
+    }
+    ul.nav li a {
+        /* padding: 20px 11% 0 0; */
+        /* margin-right: 20px; */
+    }
+    .home_item {
+        padding: 2px;
+        background: grey;
+        /* box-shadow: inset 44px 24px 0.5; */
+        /* box-shadow: inset 0 0 30px grey; */
+        /* background-color: #643A79; */
+        /* padding: 5px 17px; */
+        /* margin-right: 0; */
+        /* box-shadow: inset 10em #643A79; */
+    }
+
+h1 {
+    margin: 115px auto 53px;
+    text-align: center;
+    font-weight: 700;
+    color: #f7f3ea;
+    font-size: 42.2px;
+}
+
+p {
+    text-align: center;
+}
+
+.button {
+    margin: 0 auto;
+    width: 20.35%;
+}
+    .button button {
+        width: 100%;
+        height: 70px;
+        margin-bottom: 140px;
+        color: white;
+        background-color: #EB7D4B;
+        border: 0;
+        font-size: 18px;
+        border-radius: 5px;
+        box-shadow: 0px 5px 5px #9c5533;
+    }
+
+section.services_we_provide {
+    background-color: #17C2A4;
+}
+
+.main_parag_1 {
+    margin: 0;
+    padding-top: 115px;
+    padding-bottom: 18px;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: white;
+    text-align: center;
+}
+    .line_st {
+        margin: 0 auto;
+        width: 87px;
+        height: 4px;
+        background-color: rgba(0, 0, 0, 0.14);
+    }
+    .line_p2 {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 0.02em;
+        color: #ffffff;
+    }
+
+.container_elements {
+    display: flex;
+    justify-content: center;
+}
+.elem {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between */
+    align-items: center;
+    margin-right: 25px;
+    margin-left: 25px;
+    width: 16.67%;
+    height: 310px;
+    border: 1px solid black;
+}

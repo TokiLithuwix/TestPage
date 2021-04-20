@@ -1,0 +1,25 @@
+@font-face {
+    font-family: Titillium_Web;
+    src: url(../Font_Titillium_Web/TitilliumWeb-Regular.ttf);
+}
+* {
+    font-family: Titillium_Web;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
