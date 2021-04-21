@@ -88,17 +88,16 @@ p {
 section.services_we_provide {
     background-color: #17C2A4;
 }
-
-.main_parag_1 {
-    margin: 0;
-    padding-top: 115px;
-    padding-bottom: 18px;
-    font-size: 40px;
-    font-weight: 700;
-    letter-spacing: 0.1em;
-    color: white;
-    text-align: center;
-}
+    .main_parag_1 {
+        margin: 0;
+        padding-top: 115px;
+        padding-bottom: 18px;
+        font-size: 40px;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        color: white;
+        text-align: center;
+    }
     .line_st {
         margin: 0 auto 10px;
         width: 87px;
@@ -121,7 +120,7 @@ section.services_we_provide {
 .elem {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between */
+    /* justify-content: center; */
     align-items: center;
     margin-right: 25px;
     margin-left: 25px;
@@ -147,3 +146,21 @@ section.services_we_provide {
         letter-spacing: 0.02em;
         color: #ffffff;
     }
+section.meet_our_beautiful_team {
+    background-color: #e7f1f8;
+}
+    section.meet_our_beautiful_team .main_parag_1 {
+        color: #3c4761;
+    }
+    section.meet_our_beautiful_team .line_p2 {
+        color: #3c4761;
+    }
+
+
+
+
+
+
+
+
+
