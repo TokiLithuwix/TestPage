@@ -1,0 +1,81 @@
+.inp-name::-webkit-input-placeholder, .inp-mail::-webkit-input-placeholder {text-indent: 0px;   transition: text-indent 0.3s ease;}
+.inp-name,::-moz-placeholder{text-indent: 0px;   transition: text-indent 0.3s ease;}
+.inp-name:-moz-placeholder, .inp-mail:-moz-placeholder {text-indent: 0px;   transition: text-indent 0.3s ease;}
+.inp-name:-ms-input-placeholder, .inp-mail:-ms-input-placeholder{text-indent: 0px;   transition: text-indent 0.3s ease;}
+.inp-name:focus::-webkit-input-placeholder, .inp-mail:focus::-webkit-input-placeholder{text-indent: 500px; transition: text-indent 0.3s ease;}
+.inp-name:focus::-moz-placeholder, .inp-mail:focus::-moz-placeholder {text-indent: 500px; transition: text-indent 0.3s ease;}
+.inp-name:focus:-moz-placeholder, .inp-mail:focus:-moz-placeholder {text-indent: 500px; transition: text-indent 0.3s ease;}
+.inp-name:focus:-ms-input-placeholder, .inp-mail:focus:-ms-input-placeholder{text-indent: 500px; transition: text-indent 0.3s ease;}
+
+/* .inp-mess */
+/* .inp-name, .inp-mail */
+
+
+
+.inp-name::-webkit-input-placeholder {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #ffffff;}
+.inp-name::-moz-placeholder {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #ffffff;}/* Firefox 19+ */
+.inp-name:-moz-placeholder {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #ffffff;}/* Firefox 18- */
+.inp-name:-ms-input-placeholder {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #ffffff;}
+
+   
+
+
+
+
+.inp-mail::-webkit-input-placeholder {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #ffffff;}
+.inp-mail::-moz-placeholder {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #ffffff;}/* Firefox 19+ */
+.inp-mail:-moz-placeholder {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #ffffff;}/* Firefox 18- */
+.inp-mail:-ms-input-placeholder {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #ffffff;}
+
+.inp-mess::-webkit-input-placeholder {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #ffffff;}
+.inp-mess::-moz-placeholder {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #ffffff;}/* Firefox 19+ */
+.inp-mess:-moz-placeholder {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #ffffff;}/* Firefox 18- */
+.inp-mess:-ms-input-placeholder {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #ffffff;}

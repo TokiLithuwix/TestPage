@@ -10,10 +10,6 @@ header {
     align-items: center;
 }
 
-.logo {
-    /* width: 116.38px; */
-}
-
 .navigation {
     width: 30%;
 }
@@ -22,32 +18,18 @@ header {
 ul.nav {
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
 }
     ul.nav li {
         font-size: 16px;
         font-weight: 400;
         padding: 2px;
-        /* margin-right: 11%; */
-        /* padding: 20px 11% 0 0; */
     }
     ul.nav li a {
         padding: 8px 23px;
     }
     ul.nav li a:hover {
         background: #643a79;
-        /* padding: 20px 11% 0 0; */
-        /* margin-right: 20px; */
-    }
-    .home_item {
-        /* padding: 2px;
-        background: grey; */
-        /* box-shadow: inset 44px 24px 0.5; */
-        /* box-shadow: inset 0 0 30px grey; */
-        /* background-color: #643A79; */
-        /* padding: 5px 17px; */
-        /* margin-right: 0; */
-        /* box-shadow: inset 10em #643A79; */
+        color: white;
     }
 
 h1 {
@@ -62,18 +44,18 @@ p {
     text-align: center;
 }
 
-.button {
+.btn-work {
     margin: 0 auto;
     width: 20.35%;
 }   
-    .button button:hover {
+    .btn-work button:hover {
         outline: none!important;
         background-color: rgb(209, 84, 62);
         box-shadow: 1px 1px 3px 2px rgb(180, 76, 76);
         color: rgb(255, 254, 254);
         cursor: pointer;
     }
-    .button button {
+    .btn-work button {
         width: 100%;
         height: 70px;
         margin-bottom: 140px;
@@ -230,6 +212,241 @@ section.meet_our_beautiful_team {
 section.we_got_skills h2, section.we_got_skills p {
     color: #3c4761;
 }
+
 section.we_got_skills p {
     margin-bottom: 80px;
+}
+
+.skills {
+    padding-top: 30px;
+    padding-bottom: 60px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 18px;
+    font-weight: 700;
+    color: #3c4761;
+}
+
+body > section.we_got_skills > div.progress-bar-container {
+    margin-bottom: 120px;
+}
+
+section.our_portfolio h2 {
+    color: #393939;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: #393939;
+}
+section.our_portfolio p {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #393939;
+}
+
+section.our_portfolio {
+    background-color: #ffdd99;
+}
+
+.button_nav {
+    width: 25%;
+    margin: 0 auto 60px;
+    display: flex;
+    justify-content: center;
+}
+    .button_nav > .butt_item {
+        padding: 13px 28px;
+        margin-right: 15px;
+        font-size: 18px;
+        line-height: 19px;
+        font-weight: 400;
+        letter-spacing: 0.02em;
+        color: #393939;
+        background-color: rgba(0,0,0,0.07);
+        border: none;
+    }
+    .button_nav > .butt_item:hover {
+        background-color: #ffffff;
+    }
+
+    body > section.our_portfolio > div.container > div > div:nth-child(1), body > section.our_portfolio > div.container > div > div:nth-child(2) {
+        padding-bottom: 45px;
+    }
+    
+.description {
+    display: block;
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #393939;
+    text-transform: uppercase;
+}
+
+.btn-load_more {
+    margin: 0 auto;
+    width: 20.35%;
+}   
+    .btn-load_more button:hover {
+        outline: none!important;
+        background-color: #17a0c2;
+        box-shadow: 1px 1px 3px 2px #208bac;
+        color: rgb(255, 254, 254);
+        cursor: pointer;
+    }
+    .btn-load_more button {
+        width: 100%;
+        height: 70px;
+        margin-bottom: 140px;
+        color: rgb(241, 239, 239);
+        background-color: #17c2a4;
+        border: none;
+        font-size: 18px;
+        border-radius: 5px;
+        box-shadow: 0px 5px 5px #15a086;
+    }
+
+section.what_people_say_about_us {
+    background-color: #d74680;
+}
+
+.circle-cont {
+    display: inline-block;
+    width: 96px;
+    height: 96px;
+    background-color: #787878;
+    border-radius: 50%;
+}
+
+.flex_bs_clie {
+    display: flex;
+    justify-content: space-between;
+}
+
+q {
+    text-align: start;
+    font-size: 21px;
+    line-height: 31px;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+h4.el_name {
+    padding-top: 25px;
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+p.el_imp {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #ffdd99;
+    text-align: start;
+    padding-bottom: 130px;
+}
+
+body > section.what_people_say_about_us > div.container > div:nth-child(1), body > section.what_people_say_about_us > div.container > div:nth-child(2) {
+    display: flex;
+    justify-content: space-around;
+}
+
+body > section.what_people_say_about_us > div.container > div:nth-child(1) > div:nth-child(1), body > section.what_people_say_about_us > div.container > div:nth-child(2) > div:nth-child(1) {
+    padding-right: 26px;
+}
+
+body > section.what_people_say_about_us > div.container > div:nth-child(1) > div:nth-child(2), body > section.what_people_say_about_us > div.container > div:nth-child(2) > div:nth-child(2) {
+    padding-left: 71px;
+}
+
+body > section.what_people_say_about_us > div.container > div:nth-child(2) > div:nth-child(2) > div.circle-cont {
+    margin-right: 40px;
+}
+
+section.get-in-touch {
+    background-color: #3c5499;
+}
+
+form {
+    width: 60%;
+    margin: 75px auto 0;
+}
+.inp-info {
+    display: flex;
+    justify-content: space-between;
+}
+.inp-name, .inp-mail {
+    padding-left: 25px;
+    margin-bottom: 25px;
+    width: 48%;
+    height: 56px;
+    background-color: #273a71;
+    border: none;
+}
+.inp-mess {
+    padding-top: 20px;
+    padding-left: 25px;
+    width: 100%;
+    height: 200px;
+    background-color: #273a71;
+    border: none;
+}
+
+.btn-send_message {
+    margin: 58px auto 115px;
+    width: 20.35%;
+    height: 70px;
+}   
+    .btn-send_message button:hover {
+        outline: none!important;
+        background-color: #17a0c2;
+        box-shadow: 1px 1px 3px 2px #208bac;
+        color: rgb(255, 254, 254);
+        cursor: pointer;
+    }
+    .btn-send_message button {
+        width: 100%;
+        height: 70px;
+        margin-bottom: 140px;
+        color: rgb(241, 239, 239);
+        background-color: #30bae7;
+        border: none;
+        font-size: 18px;
+        border-radius: 5px;
+        box-shadow: 0px 5px 5px #15a086;
+    }
+
+footer {
+    background-color: #344b8e;
+    height: 112px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-footer {
+    width: 68%;
+    margin: 0 auto;
+}
+ul.foot {
+    display: flex;
+    justify-content: space-between;
+}
+ul.foot li {
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+ul.foot li a:hover {
+    color: #30bae7;
+    text-decoration: none;
 }
