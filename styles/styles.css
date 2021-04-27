@@ -145,54 +145,51 @@ section.meet_our_beautiful_team {
         color: #3c4761;
     }
 
-    .string_1 {
+    
+/*  */
+    
+    .main_block_cards {
         width: 70%;
-        margin: 0 auto;
+        margin: 80px auto 0;
         display: flex;
-        justify-content: space-between;
-    }
-
-    .string_2 {
-        width: 75%;
-        margin: 0 auto;
-        display: flex;
-        justify-content: space-between;
+        flex-direction: row;
         padding-bottom: 125px;
-        /* text-align: center; */
     }
-    .string_2_0 {
-        /* margin-right: 100px; */
+    .card_item {
         width: 25%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
     }
-
+/*  */
     .circle {
         background-color: #878787;
         height: 200px;
         width: 200px;
         border-radius: 50%;
     }
-    .team_name {
+    .team_name_card {
         font-size: 24px;
         font-weight: 700;
         letter-spacing: 0.02em;
         color: #27283d;
-        text-align: center;
     }
-    .vacancy {
+    .vacancy_card {
         font-size: 16px;
         line-height: 18px;
         font-weight: 400;
         letter-spacing: 0.02em;
         color: #30bae7;
-        text-align: center;
     }
-    .description {
+    .description_card {
         font-size: 16px;
         line-height: 24px;
         font-weight: 300;
         letter-spacing: 0.02em;
         color: #3c4761;
-        text-align: center;
     }
 .links {
     display: flex;
@@ -283,7 +280,6 @@ section.our_portfolio {
     font-weight: 400;
     letter-spacing: 0.02em;
     color: #393939;
-    text-transform: uppercase;
 }
 
 .btn-load_more {
@@ -314,7 +310,7 @@ section.what_people_say_about_us {
 }
 
 .circle-cont {
-    display: inline-block;
+    /* display: inline-block; */
     width: 96px;
     height: 96px;
     background-color: #787878;
@@ -367,9 +363,9 @@ body > section.what_people_say_about_us > div.container > div:nth-child(1) > div
     padding-left: 71px;
 }
 
-body > section.what_people_say_about_us > div.container > div:nth-child(2) > div:nth-child(2) > div.circle-cont {
+/* body > section.what_people_say_about_us > div.container > div:nth-child(2) > div:nth-child(2) > div.circle-cont {
     margin-right: 40px;
-}
+} */
 
 section.get-in-touch {
     background-color: #3c5499;
